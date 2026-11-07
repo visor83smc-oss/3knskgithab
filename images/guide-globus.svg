@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f4a3a"/>
+      <stop offset="1" stop-color="#243d30"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#e9a27c" fill-opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#dots)"/>
+  <g transform="translate(560 220) scale(8 8)" fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="M32 8 L52 18 L52 30 C52 42 44 50 32 56 C20 50 12 42 12 30 L12 18 Z" fill="none" stroke="#e9a27c" stroke-width="2"/><path d="M22 24 Q26 20 30 24" fill="none" stroke="#e9a27c" stroke-width="2" stroke-linecap="round"/><path d="M34 24 Q38 20 42 24" fill="none" stroke="#e9a27c" stroke-width="2" stroke-linecap="round"/><path d="M24 36 Q32 42 40 36" fill="none" stroke="#e9a27c" stroke-width="2" stroke-linecap="round"/></g>
+  <line x1="80" y1="640" x2="320" y2="640" stroke="#e9a27c" stroke-width="3"/>
+  <text x="80" y="700" font-family="Cormorant Garamond, Georgia, serif" font-size="64" font-weight="600" fill="#f7f1e8">Глобус</text>
+  <text x="82" y="740" font-family="Manrope, system-ui, sans-serif" font-size="20" letter-spacing="6" fill="#e9a27c">НОВОСИБИРСК · ГИД</text>
+</svg>

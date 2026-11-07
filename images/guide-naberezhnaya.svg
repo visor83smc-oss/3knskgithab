@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f4a3a"/>
+      <stop offset="1" stop-color="#243d30"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#e9a27c" fill-opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#dots)"/>
+  <g transform="translate(560 220) scale(8 8)" fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="M8 24 C20 18 28 30 40 24 C48 20 52 28 56 24 L56 40 C44 46 36 34 24 40 C16 44 12 36 8 40 Z" fill="none" stroke="#e9a27c" stroke-width="2"/><path d="M8 44 C20 38 28 50 40 44 C48 40 52 48 56 44 L56 56 L8 56 Z" fill="none" stroke="#e9a27c" stroke-width="2"/></g>
+  <line x1="80" y1="640" x2="320" y2="640" stroke="#e9a27c" stroke-width="3"/>
+  <text x="80" y="700" font-family="Cormorant Garamond, Georgia, serif" font-size="64" font-weight="600" fill="#f7f1e8">Михайловская набережная</text>
+  <text x="82" y="740" font-family="Manrope, system-ui, sans-serif" font-size="20" letter-spacing="6" fill="#e9a27c">НОВОСИБИРСК · ГИД</text>
+</svg>

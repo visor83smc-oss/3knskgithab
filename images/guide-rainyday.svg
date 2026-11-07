@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d5e4a"/>
+      <stop offset="1" stop-color="#2f4a3a"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#e9a27c" fill-opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#dots)"/>
+  <g transform="translate(560 220) scale(8 8)" fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="M16 32 C12 32 10 28 12 24 C12 18 18 14 24 16 C26 10 34 8 40 12 C46 10 52 14 52 22 C56 24 56 30 52 32 Z" fill="none" stroke="#e9a27c" stroke-width="2"/><line x1="20" y1="40" x2="18" y2="48" stroke="#e9a27c" stroke-width="2" stroke-linecap="round"/><line x1="32" y1="40" x2="30" y2="48" stroke="#e9a27c" stroke-width="2" stroke-linecap="round"/><line x1="44" y1="40" x2="42" y2="48" stroke="#e9a27c" stroke-width="2" stroke-linecap="round"/></g>
+  <line x1="80" y1="640" x2="320" y2="640" stroke="#e9a27c" stroke-width="3"/>
+  <text x="80" y="700" font-family="Cormorant Garamond, Georgia, serif" font-size="64" font-weight="600" fill="#f7f1e8">В дождливый день</text>
+  <text x="82" y="740" font-family="Manrope, system-ui, sans-serif" font-size="20" letter-spacing="6" fill="#e9a27c">НОВОСИБИРСК · ГИД</text>
+</svg>
